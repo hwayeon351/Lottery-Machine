@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun setNumberBackground(number:Int, textView: TextView) {
+    private fun setNumberBackground(number: Int, textView: TextView) {
         when (number) {
             in 1..10 -> textView.background =
                 ContextCompat.getDrawable(this, R.drawable.circle_yellow)
